@@ -14,14 +14,6 @@ The Utility Performance Dashboard is a data visualization project built in Power
 - **Power Query**: For data cleaning and transformation within Power BI
 - **Public Datasets**: Used to simulate real-world utility performance data
 
-### Project Setup
-
-1. **Install Power BI Desktop**  
-   Download and install Power BI Desktop from [Power BI Desktop Download](https://powerbi.microsoft.com/desktop/). Power BI Desktop is free and available for Windows, and it will be the primary tool used to build the dashboard.
-
-2. **Create a Project Folder**  
-   Set up a folder on your local machine to store project files, datasets, and related documentation. Suggested folder structure:
-
 ### Datasets
 The following datasets are used, saved as CSV files in the `data/` folder:
 
