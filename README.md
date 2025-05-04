@@ -1,38 +1,103 @@
-# Utility Performance Dashboard
 
-### Project Overview
-The Utility Performance Dashboard is a data visualization project built in Power BI, aimed at simulating performance monitoring for a utility company. The dashboard tracks key performance indicators (KPIs) such as energy consumption, outage frequency and duration, and customer satisfaction levels. This project provides hands-on experience in data visualization, performance tracking, and reporting—all relevant to roles in utilities and performance monitoring.
+# ⚡ Utility Performance Dashboard
 
-### Features
-- Interactive dashboard with filters for time periods and locations
-- Visualizations to display energy consumption trends, outage statistics, and customer satisfaction levels
-- KPI indicators with conditional formatting to highlight key metrics
-- Simulated datasets representing typical utility performance data
+This Utility Performance Dashboard is a Power BI project designed to visualize and monitor key performance metrics for utility companies. It includes analytics for **energy consumption**, **power outages**, and **customer satisfaction** across different regions over time.
 
-### Tools Used
-- **Power BI**: For data visualization and dashboard creation
-- **Power Query**: For data cleaning and transformation within Power BI
-- **Public Datasets**: Used to simulate real-world utility performance data
+> Built by [David Rodriguez](https://www.linkedin.com/in/david-i-rodriguez/), this project reflects practical experience from utility-based performance monitoring and data automation gained during his internship at CPS Energy.
 
-### Datasets
-The following datasets are used, saved as CSV files in the `data/` folder:
+---
 
-1. **Energy Consumption and Generation**  
-- **Source**: [U.S. Energy Information Administration (EIA)](https://www.eia.gov/electricity/data.php)
-- **Fields**: Date, Location, Consumption (kWh), Generation (kWh)
+## 📊 Features
 
-2. **Customer Satisfaction**  
-- **Source**: Simulated data
-- **Fields**: Date, Location, Satisfaction Score (1-10)
+- 📈 Interactive time-series charts for energy consumption
+- 🔌 Visual breakdown of outage durations and affected users
+- 🌟 Gauge metrics for regional customer satisfaction
+- 📍 Filterable by region and timeframe
+- 🚀 Built with Power BI, using simulated CSV datasets
 
-3. **Power Outages**  
-- **Source**: [Kaggle Power Outage Dataset](https://www.kaggle.com/datasets/wri/global-power-plant-database)
-- **Fields**: Date, Location, Duration (hours), Cause of Outage
+---
 
-### Getting Started
+## 📁 Project Structure
 
-1. **Clone the Repository**  
-Clone this repository to your local machine.
+```plaintext
+Utility-Performance-Dashboard/
+├── data/
+│   ├── energy_consumption.csv
+│   ├── outages.csv
+│   └── customer_satisfaction.csv
+├── UtilityPerformanceDashboard.pbix
+├── data_dictionary.md
+└── LICENSE
+```
 
-```bash
-git clone https://github.com/username/Utility-Performance-Dashboard.git
+---
+
+## 📥 Download Files
+
+- [energy_consumption.csv](./data/energy_consumption.csv)
+- [outages.csv](./data/outages.csv)
+- [customer_satisfaction.csv](./data/customer_satisfaction.csv)
+- [UtilityPerformanceDashboard.pbix](./UtilityPerformanceDashboard.pbix)
+- [data_dictionary.md](./data_dictionary.md)
+- [LICENSE](./LICENSE)
+
+---
+
+## 🛠️ How to Use
+
+1. **Install Power BI Desktop**
+   - Download it from: [https://powerbi.microsoft.com/desktop/](https://powerbi.microsoft.com/desktop/)
+
+2. **Clone the repository**
+   ```bash
+   git clone https://github.com/Drod01/Utility-Performance-Dashboard.git
+   cd Utility-Performance-Dashboard
+   ```
+
+3. **Open the Dashboard**
+   - Launch Power BI Desktop and open `UtilityPerformanceDashboard.pbix`
+
+4. **Refresh Data**
+   - Click on the **Home** tab in Power BI and select **Refresh**
+   - Ensure the `.csv` files remain in the same directory structure
+
+---
+
+## 📚 Data Sources
+
+All data is simulated and stored in CSV format under the `data/` directory:
+
+- **energy_consumption.csv** — Monthly kWh usage by region
+- **outages.csv** — Records of outage events, duration, and customer impact
+- **customer_satisfaction.csv** — Monthly satisfaction score per region
+
+For detailed field descriptions, see: [data_dictionary.md](./data_dictionary.md)
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Power BI Dashboard Design
+- Data Cleaning and Aggregation
+- Visual Storytelling with KPIs and Metrics
+- Simulated Dataset Construction
+- CSV Data Integration
+- GitHub Project Management
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🙋‍♂️ Contact
+
+**David Rodriguez**  
+📧 d.rod23@outlook.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/david-i-rodriguez/)
+
+---
+
+*Feel free to fork this repo, submit issues, or use this dashboard as a starting point for your own utility performance analytics!*
