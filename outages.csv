@@ -1,0 +1,5 @@
+Date,Region,Outage_Duration_Minutes,Customers_Affected
+2024-01-15,North,45,1200
+2024-01-20,South,30,800
+2024-02-10,North,60,1500
+2024-02-18,South,20,600
